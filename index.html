@@ -6,15 +6,20 @@
   </head>
   <body>
     <h1 class="header">TRIANGLE-TRACKER</h1>
-    <p class="sidebar">
+    <p>This program allows you to know which tiangle whose measurements you've inputed
+    <div class="sidebar">
       <h1 class="input">Measurement Input</h1>
-        Side1: <input type="text" size="5" id="">
-        Side2: <input type="text" size="5" id="">
-        Side3: <input type="text" size="5" id="">
-        <p></p>
-        <br>
-        <button type="button" onclick="Answer()">ANSWER</button>
-        <button type="button" onclick="Reset Default()">RESET</button>
+        <p>Side1:
+           <input type="integer" size="5" id=""><br />
+        <p>Side2:
+         <input type="integer" size="5" id=""><br />
+        <p>Side3:
+           <input type="integer" size="5" id=""><br />
+        <br />   
+        <p class="SD">To find out which triangle you have inputed measurements for, Click on answer</p><br>
+        <button class="answer" type="button" onclick="Answer()">ANSWER</button>
+        <button class="reset" type="button" onclick="Reset Default()">RESET</button>
+    </div>
     </p>
     <p id="output">Type of Triangle = ??</p>
   </body>
