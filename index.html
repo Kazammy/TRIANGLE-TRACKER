@@ -6,25 +6,27 @@
     <title>TRIANGLE-TRACKER</title>
   </head>
   <body>
+    <script src="js/scripts.js"></script>
+
     <div class="test-box">
       <h1 class="header">TRIANGLE-TRACKER</h1>
-        <img src="https://www.desktop-background.com/p/2013/12/10/683244_cool-triangle-wallpapers_1600x900_h.jpg" width="100%">
-          <p>This program allows you to know which tiangle whose measurements you've inputed</p>
+        <img src="http://www.4usky.com/data/out/70/164630886-pink-floyd-wallpapers.jpg" width="100%">
+          <p class="color">This program allows you to know which tiangle whose measurements you've inputed</p>
             <img src="https://edecorati.com/data/out/261/wallpaper-red_292833876.jpg" width="700px" height="400px">
       <div class="sidebar">
         <h1 class="input">Measurement Input</h1>
-          <p>Side1:
-            <input type="Integer" size="5" name="one"><br />
-          <p>Side2:
-            <input type="Integer" size="5" name="two"><br />
-          <p>Side3:
-            <input type="Integer" size="5" name="three"><br />
+         <form action="" name="Number">
+          <p class="c3">Side1:
+            <input type="Integer" size="5" name="one"/><br />
+          <p class="c1">Side2:
+            <input type="Integer" size="5" name="two"/><br />
+          <p class="c2">Side3:
+            <input type="Integer" size="5" name="three"/><br />
         <br />
           <p class="SD">To find out which triangle you have inputed measurements for, Click on answer</p><br>
             <button class="answer" type="button" onclick="Answer()">ANSWER</button>
-            <button class="reset" type="button" onclick="Reset Default()">RESET</button>
-          <p id="output">Type of Triangle = ??</p>
-          <script src="js/scripts.js"></script>
+            <button class="reset" type="reset" onclick="Reset Default()">RESET</button>
+          <p id="output"><div class=cc>Type of Triangle = ??</div></p>
       </div>
     </div>
   </body>
