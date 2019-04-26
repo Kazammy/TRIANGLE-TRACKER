@@ -1,5 +1,5 @@
 .test-box {
-  background-color:
+  background-color: crimson;
 }
 .header {
   font-style: oblique;
@@ -7,6 +7,12 @@
   color: black;
   text-decoration-style: wavy;
   text-overflow: ellipsis;
+}
+.color {
+  font-style: italic;
+  font-weight: lighter;
+  font-family: sans-serif;
+  color:
 }
 .sidebar {
   float: right;
@@ -18,4 +24,11 @@
   border-bottom: 4px;
   border-left: 4px;
   border-right: 4px;
+}
+.input {
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-shadow: blue 2px 5px;
 }
