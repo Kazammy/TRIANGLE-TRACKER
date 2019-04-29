@@ -17,6 +17,8 @@ For a triangle not to be formed the sum of two sides must be  equal to or less t
 The program uses JavaScript to initialize and work the code.
 The webpage itself is styled using CSS to achieve its overall great look.
 The images used can be found online just inspect the file to see the links as they are  not custom made and I owe the rights to the owner in accordance to copyright rules.
+## LINK ADDRESS
+https://kazammy.github.io/TRIANGLE-TRACKER/
 ## CONTACT INFORMATION
 My contacts are listed below;
 SLACK:Samuel Thige
