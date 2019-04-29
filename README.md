@@ -9,10 +9,10 @@ The author is 18 years of age :).
 ## SETUP INSTRUCTIONS
 The link of the live site is uploaded down below follow the link to access the program site. 
 ## BDD
-An equilateral tiangle has all the measurements being exactly the same even to the last decimal point.
-A scalene triangle has all the sides having different values for measurements.
-An isosceles triangle has two sides having same measurements while the third is completely different.
-For a triangle not to be formed the sum of two sides must be  equal to or less than the third side's measurements.
+[An equilateral tiangle] Has all the measurements being exactly the same even to the last decimal point.
+[A scalene triangle] Has all the sides having different values for measurements.
+[An isosceles triangle] Has two sides having same measurements while the third is completely different.
+[For a triangle not to be formed] The sum of two sides must be  equal to or less than the third side's measurements.
 ## TECHNOLOGIES USED
 The program uses JavaScript to initialize and work the code.
 The webpage itself is styled using CSS to achieve its overall great look.
